@@ -15,5 +15,3 @@ spec:
       containers:
       - name: save-images
         image: joeyw526/save-images:v1
-        ports:
-        - containerPort: 1883

@@ -43,7 +43,7 @@ while(True):
         face = gray[y: y_height, x: x_width]
 
         _, pic = cv.imencode('.png', face)
-        local_mqttclient.publish(LOCAL_MQTT_TOPIC, payload=msg, qos=0, retain=False)
+        local_mqttclient.publish(LOCAL_MQTT_TOPIC, payload=pic.tobytes(), qos=0, retain=False)
 
     # Display the resulting frame
     cv.imshow('frame', gray)
