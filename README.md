@@ -39,7 +39,7 @@ This was done for each of the components
   
 
   
-aws_alpine and save_images are what get deployed on AWS with commands:
+#### aws_alpine and save_images are what get deployed on AWS with commands:
 
 kubectl apply -f ~/aws_alpine/kubernetesDeployment.yaml
   
