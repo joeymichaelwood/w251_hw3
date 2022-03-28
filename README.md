@@ -19,13 +19,20 @@ For this homework, I used QoS Zero. Given that this was a learning experience an
 
 ### Docker and Kube Commands
 To run this application, I utilized the kube and docker command line. For the edge device I applied each of their configs like so:
+
 kubectl apply -f kubernetesDeployment.yaml
+
 kubectl apply -f mosquittoService.yaml
+
 kubectl apply -f subWorkflowDeployments.yaml
 
+
 To build the docker containers I utilized the commands provided in the Lab:
+
 docker build -t <image-name> .
+  
 For this face detector this would look like:
+
 docker build -t joeyw526/face-detector:v1 .
 
 This was done for each of the components
