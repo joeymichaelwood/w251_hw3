@@ -36,3 +36,16 @@ For this face detector this would look like:
 docker build -t joeyw526/face-detector:v1 .
 
 This was done for each of the components
+  
+
+  
+#### aws_alpine and save_images are what get deployed on AWS with commands:
+
+kubectl apply -f ~/aws_alpine/kubernetesDeployment.yaml
+  
+kubectl apply -f ~/aws_alpine/mosquittoService.yaml
+
+kubectl apply -f ~/save_images/saveImagesDeployment.yaml
+  
+kubectl expose deployment mosquitto-deployment --port=31704 --type=NodePort
+
