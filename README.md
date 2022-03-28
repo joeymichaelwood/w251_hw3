@@ -2,7 +2,9 @@
 
 Faces location:
 https://berkeley-251.s3.amazonaws.com/ffd194c9-d767-43c8-b2f6-bf27177aa0a9.png
+
 https://berkeley-251.s3.amazonaws.com/561eb9c0-d2a7-4bd5-a6b5-147c1de29f62.png
+
 https://berkeley-251.s3.amazonaws.com/85a671be-61a2-46f3-9384-504a92b058b4.png
 
 10 points for explaining the MQTT topics and the QoS that you used.
